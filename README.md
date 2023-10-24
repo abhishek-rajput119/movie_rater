@@ -64,8 +64,6 @@ Before running the Movie Rater project, you need to install the required depende
 
 8. You can access the API at `http://localhost:8000/api/movies/`.
 
-9. To connect the backend to the React frontend, follow the setup instructions in the `frontend` directory of this project.
-
 ## API Endpoints
 
 - **List Movies:** `/api/movies/` (GET)
@@ -73,8 +71,7 @@ Before running the Movie Rater project, you need to install the required depende
 - **Retrieve Movie Details:** `/api/movies/{movie_id}/` (GET)
 - **Update Movie Details:** `/api/movies/{movie_id}/` (PUT)
 - **Delete Movie:** `/api/movies/{movie_id}/` (DELETE)
-- **List Ratings for a Movie:** `/api/movies/{movie_id}/ratings/` (GET)
-- **Rate a Movie:** `/api/movies/{movie_id}/rate/` (POST)
+- **Rate a Movie:** `/api/movies/{movie_id}/rate_movie/` (POST)
 
 ## Usage
 
